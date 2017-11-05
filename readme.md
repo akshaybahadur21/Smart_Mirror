@@ -111,5 +111,5 @@ Start the app
 python bot.py
 ```
 
-# Code shall be uploaded soon once the test phase is completed
+# Code shall be uploaded once the test phase is completed
  
