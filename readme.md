@@ -87,6 +87,8 @@ You need to get the API Key, Client Secret, Oauth Key and paste it in the code.
 For zomato, you need to get the API key from zomato's dev site.
 And paste it in the code. 
 You can view the list of available restaurants in a region.
+
+# Starting Up
  
 Navigate to the AI-Smart-Mirror folder
 ```shell
