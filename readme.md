@@ -88,6 +88,30 @@ For zomato, you need to get the API key from zomato's dev site.
 And paste it in the code. 
 You can view the list of available restaurants in a region.
 
+## SoundHound
+
+For various other tasks, we have used soundhound's api. The soundhound service is quite effective and fast. Operations that could be done using soundhound:
+1) Solving Mathematical equations
+2) Stock Market
+3) Hotel Enquiries.
+
+## Commands that you could use on the mirror
+
+1) Can you play me a video of Eminem?
+2) Can you book me an uber pool/go from Vimaan Nagar to Baner?
+3) Can you show me restaurants in Pune?
+4) Can you show me the latest news.
+5) Can you show me the weather forecast?
+6) Can you show me map of India?
+7) Can you tell me a joke?
+8) How do I look?
+9) What's the meaning of life?
+10) Show me your face.
+11) What are the roots for x^2-x+1
+12) What are the stock prices and market cap of Google, Apple and Microsoft.
+13) Can you show me hotels in New York that have a swimming pool for next Monday?
+14) Who's Sachine Tendulkar?
+
 # Starting Up
  
 Navigate to the AI-Smart-Mirror folder
