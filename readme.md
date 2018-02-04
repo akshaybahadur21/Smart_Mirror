@@ -63,6 +63,7 @@ You have to create your own developer account and get the API key.
 ## Youtube
 For enabling youTube, you need to get the youTube secret Key from the Google's developer Console.
 Add the key in the code.
+#### Can you play me a video of Eminem?
 
 ## Maps
 
@@ -71,22 +72,26 @@ For map, we are using Google maps. Types of map we support right now are :
 2) Hybrid
 3) Satellite
 4) Terrain
+#### Can you show me map of India?
 
 ## News
 
 For news, we use Google news and the location has been set to IN (INDIA).
 You can change it according o your country to get the latest news.
+#### Can you show me the latest news?
 
 ## Uber
 
 You can directly book an uber and get the arrival map using this module.
 You need to get the API Key, Client Secret, Oauth Key and paste it in the code.
+#### Can you book me an uber pool/go from Vimaan Nagar to Baner?
 
 ## Zomato
 
 For zomato, you need to get the API key from zomato's dev site.
 And paste it in the code. 
 You can view the list of available restaurants in a region.
+#### Can you show me restaurants in Pune?
 
 ## SoundHound
 
@@ -95,12 +100,17 @@ For various other tasks, we have used soundhound's api. The soundhound service i
 2) Stock Market
 3) Hotel Enquiries.
 
+#### What are the roots for x^2-x+1
+#### What are the stock prices and market cap of Google, Apple and Microsoft.
+#### Can you show me hotels in New York that have a swimming pool for next Monday?
+#### Who's Sachine Tendulkar?
+
 ## Commands that you could use on the mirror
 
 1) Can you play me a video of Eminem?
 2) Can you book me an uber pool/go from Vimaan Nagar to Baner?
 3) Can you show me restaurants in Pune?
-4) Can you show me the latest news.
+4) Can you show me the latest news?
 5) Can you show me the weather forecast?
 6) Can you show me map of India?
 7) Can you tell me a joke?
