@@ -106,7 +106,7 @@ For various other tasks, we have used soundhound's api. The soundhound service i
 ### Can you show me hotels in New York that have a swimming pool for next Monday?
 ### Who's Sachine Tendulkar?
 
-## Commands that you could use on the mirror
+# Commands that you could use on the mirror
 
 1) Can you play me a video of Eminem?
 2) Can you book me an uber pool/go from Vimaan Nagar to Baner?
@@ -128,7 +128,7 @@ Different APIs have been used for different services. You are required to create
 You have to place the keys in the code.
 The instructions for the same are given in the code.
 
-### There are some easter eggs which you guys can find out and let us know on the forum.
+### There are some easter eggs which you guys can find out and let us know in the forum.
 
 # Starting Up
  
