@@ -105,12 +105,19 @@ For various other tasks, we have used soundhound's api. The soundhound service i
 6) Can you show me map of India?
 7) Can you tell me a joke?
 8) How do I look?
-9) What's the meaning of life?
-10) Show me your face.
-11) What are the roots for x^2-x+1
-12) What are the stock prices and market cap of Google, Apple and Microsoft.
-13) Can you show me hotels in New York that have a swimming pool for next Monday?
-14) Who's Sachine Tendulkar?
+9) Show me your face.
+10) What are the roots for x^2-x+1
+11) What are the stock prices and market cap of Google, Apple and Microsoft.
+12) Can you show me hotels in New York that have a swimming pool for next Monday?
+13) Who's Sachine Tendulkar?
+
+## API
+
+Different APIs have been used for different services. You are required to create an account and get the respective keys from the providers.
+You have to place the keys in the code.
+The instructions for the same are given in the code.
+
+### There are some easter eggs which you guys can find out and let us know on the forum.
 
 # Starting Up
  
