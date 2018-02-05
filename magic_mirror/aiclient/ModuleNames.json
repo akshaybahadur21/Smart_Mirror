@@ -1,0 +1,16 @@
+{
+  "alert": "alert",
+  "calendar": "calendar",
+  "clock": "clock",
+  "compliments": "compliments",
+  "current weather": "currentweather",
+  "weather forecast": "weatherforecast",
+  "feed module": "newsfeed",
+  "facial recognition": "MMM-Facial-Recognition",
+  "smile test": "MMM-Smile",
+  "globe": "MMM-Globe",
+  "jokes": "MMM-jokes",
+  "magic mirror": "MMM-MirrorMirrorOnTheWall",
+  "Bitcoin module": "MMM-bitcoin",
+  "mail module": "email"
+}

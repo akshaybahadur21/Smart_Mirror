@@ -160,5 +160,4 @@ python bot.py
 <img src="https://github.com/akshaybahadur21/Smart_Mirror/blob/master/smart_mirror.gif">
 
 
-# Code shall be uploaded once the test phase is completed
  

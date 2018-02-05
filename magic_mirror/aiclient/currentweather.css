@@ -1,0 +1,367 @@
+.currentweather .weathericon {
+  font-size: 75%;
+  line-height: 65px;
+  display: inline-block;
+  -ms-transform: translate(0, -3px); /* IE 9 */
+  -webkit-transform: translate(0, -3px); /* Safari */
+  transform: translate(0, -3px);
+}
+
+.videoWrapper {
+  position: relative;
+
+  /* 16:9 */
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 55%;
+  border: none;
+}
+
+.contain{
+  position: relative;
+  
+  display: inline-block;
+  margin: .6em 0 .2em 5em;
+  padding: 1em .40em;
+  border-radius: .10em;
+  text-decoration: none;
+  background-color: rgba(250, 250, 255, 0.1);
+  
+  box-shadow: inset 0 1px 0 0 rgba(250, 250, 255, 0.3), inset 0 -0.5em 0 0 rgba(0, 0, 5, 0.05), inset 0 0.25em 1em 0 rgba(250, 250, 255, 0.1), inset 0 -0.25em 1em 0 rgba(0, 0, 5, 0.5), inset 0 -1px 0 0 rgba(0, 0, 5, 0.1), 0 0 0.25em 0 rgba(0, 0, 5, 0.5);
+  
+}
+
+
+.open{
+
+  display: block;
+  
+  z-index: 999;
+}
+
+
+.circular--landscape {
+     width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: -29px;
+    background: #161629;
+  margin-left: 650px;
+  
+}
+
+.circular--landscape img {
+     display: inline;
+    margin: 0 auto;
+    height: 117%;
+    width: auto;
+    position: absolute;
+    left: 22%;
+    top: -37%;
+    transform: rotate(90deg);
+  
+}
+
+.info{
+  width: 75px;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    /* margin-right: -29px; */
+    left: 9%;
+    top: 49%;
+
+  }
+
+  .info img{
+     display: inline;
+    margin: 0 auto;
+    height: 100%;
+   
+    position: absolute;
+    left: -11%;
+    top: 0%;
+    transform: rotate(0deg);
+  }
+.est{
+    top: 47%;
+    position: absolute;
+    background: white;
+    border-radius: 3px;
+    height: 60px;
+    width: 60px;
+    left: 80%;
+  opacity:.92;
+      text-align: center;
+    color: #222233;
+    font-size: .9em;
+    line-height: 32px;
+    padding: .5em;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.arr{
+position: absolute;
+    top: 60%;
+    background: white;
+    color: black;
+    border-radius: 22px;
+    font-size: .7em;
+    padding: 0em .5em 0em .5em;
+    line-height: 32px;
+    font-family: 'Signika', sans-serif;
+    color: black;
+    left: 35%;
+    transform: scale(.8);
+  }
+
+.plate{
+    font-family: 'Signika', sans-serif;
+    color: #c0c0c8;
+    position: absolute;
+    top: 63%;
+    left: 33%;
+    font-size: 26px;
+    border: 1.2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: .2em;
+    line-height: 29px;
+    font-weight: lighter;
+}
+.carname{
+font-family: 'Signika', sans-serif;
+    color: white;
+    position: absolute;
+    top: 54%;
+    left: 34%;
+}
+
+.cost
+{
+    font-family: 'Signika', sans-serif;
+    color: #1fbad6;
+    position: absolute;
+    top: 72%;
+    left: 37%;
+}
+
+.status
+{
+    font-family: 'Signika', sans-serif;
+    color: #c0c0c8;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+}
+
+.type
+{
+    font-family: 'Signika', sans-serif;
+    color: #c0c0c8;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+}
+
+.card__face__path {
+ position: absolute;
+    left: 63px;
+    top: 21px;
+    width: 2px;
+    height: 23px;
+    color: green;
+}
+.card__face__path:before, .card__face__path:after {
+  content: "";
+  position: absolute;
+  left: -46px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: inherit;
+}
+.card__face__path:before {
+  top: -11px;
+}
+.card__face__path:after {
+  bottom: -7px;
+}
+.card__face__from-to {
+
+  position: absolute;
+    left: -40px;
+    top: -10px;
+    width: 300px;
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+.card__face__from-to:before {
+  content: "";
+    position: absolute;
+    left: 24%;
+    top: 51%;
+    width: 61%;
+    height: 1px;
+    background: #c0c0c8
+}
+
+
+.box {
+    margin-bottom: 24px;
+    padding: 8px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #7887b0;
+    width:30%;
+        top: 102%;
+    left: 32%;
+    position: absolute;
+    height:7%;
+}
+
+.flat-button {
+  font-weight: bold;
+  /* We'll do stylings instead of letting webkit highlight..;*/
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  background-position: 0 -1px;
+  border-radius: 2px;
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: #ebebeb;
+  color: #444;
+ 
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #ebebeb));
+  background-image: -moz-linear-gradient(top, #f5f5f5, #ebebeb);
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #ebebeb);
+  background-image: linear-gradient(to bottom, #f5f5f5, #ebebeb);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-left: -5%;
+    line-height: 1.6em;
+    position: absolute;
+    width: 40%;
+}
+
+.flat-button.red {
+  background-color: #c5422d;
+  color: white;
+ 
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d14b36), color-stop(100%, #c5422d));
+  background-image: -moz-linear-gradient(top, #d14b36, #c5422d);
+  background-image: -webkit-linear-gradient(top, #d14b36, #c5422d);
+  background-image: linear-gradient(to bottom, #d14b36, #c5422d);
+  background-repeat: repeat-x;
+  border-color: transparent;
+}
+
+.flat-button.large {
+  font-size: 1.25rem;
+}
+
+
+.con {
+    height: 611px;
+    width: 743px;
+    position: absolute;
+    top: -709%;
+    left: 28%;
+    overflow: hidden;
+}
+.hotel{
+height: 250px;
+  height: 180px;
+    position: relative;
+background: #232526; /* fallback for old browsers */
+  background:linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+  margin:10px;
+  float:left;
+  overflow:hidden;
+}
+
+.subs{
+    position: absolute;
+    color: white;
+    top: -17px;
+    left: 10px;
+    font-family: sans-serif;
+    font-size: .4em;
+    z-index: 99;
+  
+  }
+
+
+.subtitle{
+position: absolute;
+    color: white;
+    top: 133px;
+    font-family: sans-serif;
+    left: 10px;
+    font-size: .3em;
+    z-index: 99;
+    opacity: .8;
+  
+} 
+
+.mainimage{
+position: relative;
+    height: 250px;
+    width: 351px;
+    opacity: .6;
+    filter: blur(4px);
+}
+.mainimage img {
+position: absolute;
+    height: 250px;
+    width: 351px;
+}
+.mainimage:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-collapse: separate;
+   box-shadow: inset 0 -70px 70px -8px;
+}
+
+.det{
+       color: white;
+    font-family: sans-serif;
+    z-index: 99;
+    opacity: .8;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    font-size: .5em;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+
+}

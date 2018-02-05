@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start', 'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 warn invalid config registry="try"
+5 warn invalid config Must be a full url with 'http://'
+6 verbose config Skipping project config: /home/raghav/.npmrc. (matches userconfig)
+7 verbose stack Error: ENOENT: no such file or directory, open '/home/raghav/package.json'
+7 verbose stack     at Error (native)
+8 verbose cwd /home/raghav/Documents/AI-Smart-Mirror-master
+9 error Linux 4.4.0-103-generic
+10 error argv "/usr/bin/node" "/usr/bin/npm" "start" "dev"
+11 error node v6.11.4
+12 error npm  v3.10.10
+13 error path /home/raghav/package.json
+14 error code ENOENT
+15 error errno -2
+16 error syscall open
+17 error enoent ENOENT: no such file or directory, open '/home/raghav/package.json'
+18 error enoent ENOENT: no such file or directory, open '/home/raghav/package.json'
+18 error enoent This is most likely not a problem with npm itself
+18 error enoent and is related to npm not being able to find a file.
+19 verbose exit [ -2, true ]

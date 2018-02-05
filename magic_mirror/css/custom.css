@@ -1,0 +1,203 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT.     *
+ *****************************************************/
+
+body {
+  margin: 20px;
+  position: absolute;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  background: #000;
+  color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.region.top.center {
+z-index: -2;
+position: absolute;
+}
+
+.brightb {
+color: #55acee;
+}
+.currentweather .wi-sunrise {
+color: #ffd700;
+}
+.currentweather .wi-sunset {
+color: #ffa500;
+}
+.currentweather .wi-day-sunny {
+color: #ffff00;
+}
+.currentweather .wi-night-showers {
+color: #55acee;
+}
+.currentweather .wi-degrees {
+color: #415;
+}
+.currentweather .wi-rain {
+color: #55acee;
+}
+.currentweather .wi-showers {
+color: #55acee;
+}
+.currentweather .wi-night-showers {
+color: #55acee;
+}
+.currentweather .wi-night-alt-cloudy-windy {
+color: #aaa;
+}
+.currentweather .wi-night-cloudy {
+color: #aaa;
+}
+.currentweather .wi-cloudy {
+color: #aaa;
+}
+.currentweather .wi-day-cloudy {
+color: #aaa;
+}
+.currentweather .wi-cloudy {
+color: #aaa;
+}
+.currentweather .wi-cloudy-windy {
+color: #aaa;
+}
+.currentweather .wi-showers {
+color: #55acee;
+}
+.currentweather .wi-thunderstorm {
+color: #ff00ff;
+}
+.currentweather .wi-snow {
+color: #fff;
+}
+.currentweather .wi-fog {
+color: #999;
+}
+.currentweather .wi-night-clear {
+color: #fff;
+}
+.currentweather .wi-night-rain {
+color: #55acee;
+}
+.currentweather .wi-night-thunderstorm {
+color: #ff00ff;
+}
+.currentweather .wi-night-snow {
+color: #fff;
+}
+.weatherforecast .wi-sunrise {
+color: #ffd700;
+}
+.weatherforecast .wi-sunset {
+color: #ffa500;
+}
+.weatherforecast .wi-day-sunny {
+color: #ffff00;
+}
+.weatherforecast .wi-night-showers {
+color: #55acee;
+}
+.weatherforecast .wi-degrees {
+color: #415;
+}
+.weatherforecast .wi-rain {
+color: #55acee;
+}
+.weatherforecast .wi-showers {
+color: #55acee;
+}
+.weatherforecast .wi-night-showers {
+color: #55acee;
+}
+.weatherforecast .wi-night-alt-cloudy-windy {
+color: #aaa;
+}
+.weatherforecast .wi-night-cloudy {
+color: #aaa;
+}
+.weatherforecast .wi-cloudy {
+color: #aaa;
+}
+.weatherforecast .wi-day-cloudy {
+color: #aaa;
+}
+.weatherforecast .wi-cloudy {
+color: #aaa;
+}
+.weatherforecast .wi-cloudy-windy {
+color: #aaa;
+}
+.weatherforecast .wi-showers {
+color: #55acee;
+}
+.weatherforecast .wi-thunderstorm {
+color: #ff00ff;
+}
+.weatherforecast .wi-snow {
+color: #fff;
+}
+.weatherforecast .wi-fog {
+color: #999;
+}
+.weatherforecast .wi-night-clear {
+color: #fff;
+}
+.weatherforecast .wi-night-rain {
+color: #55acee;
+}
+.weatherforecast .wi-night-thunderstorm {
+color: #ff00ff;
+}
+.currentweather .wi-night-snow {
+color: #fff;
+}
+
+.region.fullscreen {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+}
+
+/*.aiclient{
+  
+  display: inline-block;
+  margin: 1em 0 .2em 0;
+  padding: .75em 1.5em;
+  border-radius: .20em;
+  text-decoration: none;
+  background-color: rgba(250, 250, 255, 0.1);
+  
+  box-shadow: inset 0 1px 0 0 rgba(250, 250, 255, 0.3), inset 0 -0.5em 0 0 rgba(0, 0, 5, 0.05), inset 0 0.25em 1em 0 rgba(250, 250, 255, 0.1), inset 0 -0.25em 1em 0 rgba(0, 0, 5, 0.5), inset 0 -1px 0 0 rgba(0, 0, 5, 0.1), 0 0 0.25em 0 rgba(0, 0, 5, 0.5);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+*/
+
+li{
+  list-style-type: none;
+}
+
+.email{
+  
+
+  margin-left: 500px;
+
+}
+
+#module_9_email
+{
+  margin-bottom: 180px;
+}
