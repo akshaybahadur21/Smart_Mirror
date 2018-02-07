@@ -43,7 +43,8 @@ npm start
  
 Clone this repository (AI Smart Mirror)
 ```shell
-git clone git@github.com:akshaybahadur21/Smart_Mirror.git
+git clone https://github.com/akshaybahadur21/Smart_Mirror.git
+
 ```
 
 Copy the folders in `Smart_Mirror/magic_mirror` to `MagicMirror/modules`
