@@ -32,7 +32,7 @@ cd MagicMirror
 
 Install MagicMirror dependencies
 ```shell
-sudo npm install
+npm install
 ```
  
 Verify it starts
